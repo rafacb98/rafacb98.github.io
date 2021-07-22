@@ -1,0 +1,7 @@
+body{
+    background-color: burlywood;
+}
+img[alt="avatar"]{
+    background-color: white;
+    margin-top:40px;
+}
