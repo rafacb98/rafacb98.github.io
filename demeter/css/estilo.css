@@ -1,0 +1,63 @@
+body{
+    background-color:aqua;
+    font-family: 'Londrina Solid', cursive;
+}
+
+#mapaactual,#mapaanterior,#mapaposterior,#minas{
+    float:left;
+}
+
+textarea{
+    resize:none;
+}
+
+h1,footer p{
+    color:white;
+    font-family: 'IM Fell Great Primer SC', serif;
+}
+
+textarea{
+    float:right;
+    width:50%;
+}
+
+textarea::placeholder,textarea{
+    font-family: 'Anonymous Pro', monospace;
+}
+
+#mapa {
+    width: 100vh;
+    height: 70vh;
+    max-width: 100%;
+    max-height: 100%;
+    margin-top:10em;
+}
+
+
+.filas {
+    height: 7.6%;
+    display:flex;
+    flex-flow:row wrap;
+}
+
+.celdas{
+    height: 100%;
+    width: 6.6%;
+    float: left;
+    text-align: center;
+    font-size: 3vh;
+    border: 1px solid white;
+    background-color:rgb(107, 106, 106);
+}
+
+#errores{
+    font-family: 'Anonymous Pro', monospace;    
+}
+
+@media (max-width: 600px) {
+    #mapa {
+      margin-top:10em;
+    }
+}
+
+

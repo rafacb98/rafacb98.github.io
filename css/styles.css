@@ -5,3 +5,19 @@ img[alt="avatar"]{
     background-color: white;
     margin-top:40px;
 }
+.proyecto{
+    border:1px solid black;
+    background-color: white;
+    box-shadow: 0 0 0.3em black;
+    padding:2em;
+    border-radius: 0.8em;
+}
+.proyecto img{
+    width:100px;
+    height:100px;
+    order:-1;
+}
+.texto{
+    width:80%;
+    padding:1em;
+}

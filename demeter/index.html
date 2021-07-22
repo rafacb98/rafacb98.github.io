@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/370876764b.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Londrina+Solid&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <title>DEMETER II</title>
+</head>
+
+<body>
+
+    <header class="d-flex justify-content-around flex-wrap" style="background-color: rgba(197, 0, 0, 0.774)">
+        <img class="img-rounded" src=' img/logo.jpg' alt='logo' height='85px' />
+        <h1 class="align-self-center"> DEMETER II </h1>
+        <img class='align-self-center rounded' src=' img/eu.png' alt='eu' height='50px' />
+    </header>
+
+    <button id="mapaanterior" class="btn btn-primary col-sm-6">Mapa anterior <i class="fas fa-hand-point-left"></i></button>
+
+    <button id="mapaposterior" class="btn btn-primary col-sm-6"><i class="fas fa-hand-point-right"></i> Mapa posterior</button>
+
+    <div id="minas" class="btn btn-dark btn-lg btn-block">
+        Has desactivado <span> 0 </span> minas
+    </div>
+
+    <center>
+        <div id="mapa"></div>
+    </center>
+
+    <div id="cajaDeCodigo" class="form-group shadow-textarea">
+        <textarea class="form-control z-depth-1" id="orden" cols=50 rows=15 placeholder=
+        "OBJETIVO -> Llegar a la meta habiendo desactivado todas las minas.
+          A -> Avanzar.
+          TR -> Girar derecha.
+          TL -> Girar izquierda.
+          DEACT -> Desactivar mina.
+          WHILE NB x END -> Mientras no halla bloques avanza, gira a la izquierda, gira a la derecha o desactiva minas.
+          FOR x x END -> Durante x veces, avanza, gira a la izquierda, gira a la derecha o desactiva minas.">
+      </textarea>
+    </div>
+
+    <p class="card card-body" id="errores"></p>
+
+    <div class="text-right">
+        <button id="interpretar" class="btn btn-success btn-lg btn-block">Interpretar <i class="fas fa-code"></i></button>
+    </div>
+
+    <footer style="background-color:  rgba(197, 0, 0, 0.774)">
+        <p class="text-center">RAFAEL CARRILLO BONILLA</p>
+    </footer>
+
+    <script src="js/demeter.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.1.1.js"></script>
+
+</body>
+
+</html>
