@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "rafacb98.github.io/proyectos/static/css/main.97ba2eeb.chunk.css",
+    "main.js": "rafacb98.github.io/proyectos/static/js/main.06b64db5.chunk.js",
+    "main.js.map": "rafacb98.github.io/proyectos/static/js/main.06b64db5.chunk.js.map",
+    "runtime-main.js": "rafacb98.github.io/proyectos/static/js/runtime-main.8e5c2dbe.js",
+    "runtime-main.js.map": "rafacb98.github.io/proyectos/static/js/runtime-main.8e5c2dbe.js.map",
+    "static/css/2.2db45b02.chunk.css": "rafacb98.github.io/proyectos/static/css/2.2db45b02.chunk.css",
+    "static/js/2.50289b34.chunk.js": "rafacb98.github.io/proyectos/static/js/2.50289b34.chunk.js",
+    "static/js/2.50289b34.chunk.js.map": "rafacb98.github.io/proyectos/static/js/2.50289b34.chunk.js.map",
+    "index.html": "rafacb98.github.io/proyectos/index.html",
+    "precache-manifest.8ce755d4f2978365be4f5ebcf9cea921.js": "rafacb98.github.io/proyectos/precache-manifest.8ce755d4f2978365be4f5ebcf9cea921.js",
+    "service-worker.js": "rafacb98.github.io/proyectos/service-worker.js",
+    "static/css/2.2db45b02.chunk.css.map": "rafacb98.github.io/proyectos/static/css/2.2db45b02.chunk.css.map",
+    "static/css/main.97ba2eeb.chunk.css.map": "rafacb98.github.io/proyectos/static/css/main.97ba2eeb.chunk.css.map",
+    "static/js/2.50289b34.chunk.js.LICENSE": "rafacb98.github.io/proyectos/static/js/2.50289b34.chunk.js.LICENSE",
+    "static/media/bomba.png": "rafacb98.github.io/proyectos/static/media/bomba.030ae128.png",
+    "static/media/font-awesome.css": "rafacb98.github.io/proyectos/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8e5c2dbe.js",
+    "static/css/2.2db45b02.chunk.css",
+    "static/js/2.50289b34.chunk.js",
+    "static/css/main.97ba2eeb.chunk.css",
+    "static/js/main.06b64db5.chunk.js"
+  ]
+}
