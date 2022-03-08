@@ -6,13 +6,13 @@
       text-decoration: none;
   }
   
-img{
-    margin-right: 0 !important;
-}
+
   
 @media only screen and (max-width: 600px) {
     img{
-        height:fit-content !important;
+        height:300px !important;
+        margin-right: 0 !important;
+
     }
     .proyectos{
         margin-top:22%;
