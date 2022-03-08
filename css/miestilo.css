@@ -1,0 +1,17 @@
+.botonir{
+    border: 1px solid #6c757d;
+      padding: 0.5em;
+      background-color: #6c757d;
+      color: white !important;
+      text-decoration: none;
+  }
+  
+  
+@media only screen and (max-width: 600px) {
+    img{
+        height:auto;
+    }
+    .flex-grow-1{
+        padding-top:2em;
+    }
+}
